@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <!-- Linking Icon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Linking Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Inter:wght@400;600;700&family=Poppins:ital,wght@1,300&family=Roboto:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Inter:wght@400;600;700&family=Poppins:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <!-- Page Title -->
+    <title>Flipkart - Buy Products Online at Best Price in India - All Categories | Flipkart.com</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="nav-container">
+                    <div class="nav-left">
+                        <div class="nav-logo">
+                            <a href="index.html" class="logo-img"><img src="assets/flipkartLogo.png" alt=""></a>
+                            <a href="#" class="logo-exp">Explore <span>Plus</span> <img src="assets/plus.png"
+                                    alt=""></a>
+                        </div>
+                        <div class="nav-searchBar">
+                            <input type="text" placeholder="Search for products, brands and more" id="search">
+                            <i class="ri-search-line search-logo"></i>
+                        </div>
+                    </div>
+                    <div class="nav-right">
+                        <div class="nav-loginBtn">
+                            <a>Login</a>
+                        </div>
+                        <div class="nav-content">
+                            <a href="#">Become a Seller</a>
+                            <a href="#" class="nav-more">More <svg class="nav-arrow" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z">
+                                    </path>
+                                </svg></a>
+                            <a href="cart.html"><div class="cart-items"></div><svg class="V3C5bO" width="18" height="18" viewBox="0 0 16 16"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="_1bS9ic"
+                                        d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86"
+                                        fill="#fff"></path>
+                                </svg> Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hamburger">
+                    <i class="ri-menu-line" id="hamburger"></i>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="main-container">
+                <div class="catg-container">
+                    <!-- <div class="catg-item">Electronics <svg class="main-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z">
+                            </path>
+                        </svg></div>
+                    <div class="catg-item">Electronics <svg class="main-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z">
+                            </path>
+                        </svg></div>
+                    <div class="catg-item">Electronics <svg class="main-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z">
+                            </path>
+                        </svg></div>
+                    <div class="catg-item">Electronics <svg class="main-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z">
+                            </path>container
+                        </svg></div>
+                    <div class="catg-item">Electronics <svg class="main-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z">
+                            </path>
+                        </svg></div> -->
+                </div>
+            </div>
+            <!-- <div class="shimmer-container"> -->
+            <!-- <div class="shimmer"></div>
+                <div class="shimmer"></div>
+                <div class="shimmer"></div>
+                <div class="shimmer"></div>
+                <div class="shimmer"></div>
+                <div class="shimmer"></div> -->
+            <!-- </div> -->
+
+            <div class="main-body">
+                <div class="filter-container">
+                    <div class="filter-heading"><p>Filters</p></div>
+                    <!-- <hr> -->
+                    <div class="filter-catg-heading">
+                        <p class="filter-allHeading">CATEGORIES</p>
+                        <div class="filter-location">
+                            <a href="index.html">All Accessories <svg class="main-heading-arrow cate-location-svg"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path
+                                    d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z">
+                                </path>container
+                            </svg></a><a href="index.html">Home</a>
+                            <div class="filter-catg-name">
+                                <p>All Accessories</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <hr> -->
+                    <div class="filter-price">
+                        <p class="filter-allHeading">PRICE</p>
+                        <input type="range" name="" id="filter-range">
+                        <div class="filter-min-max-container">
+                            <div class="filter-min">
+                                <select class="min-select">
+                                    <option value="min">Min</option>
+                                    <option value="10000">&#x24; 10,000</option>
+                                    <option value="20000">&#x24; 20,000</option>
+                                    <option value="30000">&#x24; 30,000</option>
+                                    <option value="40000">&#x24; 40,000</option>
+                                </select>
+                            </div>
+                            to
+                            <div class="filter-max">
+                                <select class="max-select">
+                                    <option value="max">Max</option>
+                                    <option value="10000">&#x24; 10,000</option>
+                                    <option value="15000">&#x24; 15,000</option>
+                                    <option value="20000">&#x24; 20,000</option>
+                                    <option value="30000">&#x24; 30,000</option>
+                                    <option value="40000">&#x24; 30,000+</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <hr> -->
+                    <div class="filter-brand">
+                        <P class="filter-allHeading">BRANDS</P>
+                        <!-- <input type="checkbox" name="" id="" class="brandName-check">&nbsp;APPLE -->
+                    </div>
+                    <!-- <hr> -->
+                    <div class="filter-ratings">
+                        <p class="filter-allHeading">CUSTOMER RATINGS</p>
+                        <input type="checkbox" name="" id="" class="rating-check">&nbsp; 4&#9733; & above<br>
+                        <input type="checkbox" name="" id="" class="rating-check">&nbsp; 3&#9733; & above
+                    </div>
+                    <!-- <hr> -->
+                    <div class="filter-showMore-Btn">
+                        <button>Show More Filters <svg class="main-heading-arrow show-moreBtn-svg"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <path
+                                d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z">
+                            </path>container
+                        </svg></button>
+                    </div>
+                </div>
+                <div class="items-container">
+                    <div class="items">
+                        <div class="items-heading">
+                            <div class="items-location">
+                                <a href="index.html">Home <svg class="main-heading-arrow"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path
+                                            d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z">
+                                        </path>container
+                                    </svg></a>
+                                <a href="index.html">All Accessories
+                                    <!--  <svg class="main-arrow"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path
+                                            d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z">
+                                        </path>container
+                                    </svg>--></a>
+                                <!-- <a href="#">Mobiles <svg class="main-arrow" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24">
+                                        <path
+                                            d="M11.9997 13.1714L16.9495 8.22168L18.3637 9.63589L11.9997 15.9999L5.63574 9.63589L7.04996 8.22168L11.9997 13.1714Z">
+                                        </path>container
+                                    </svg></a> -->
+                            </div>
+                            <h3 id="main-h3">Showing 1 – 30 of 690 results for "All Accessories"</h3>
+                            <div class="heading-links">
+                                <a href="#" id="sortBy">Sort By</a>
+                                <a href="#" id="links-relevance">Relevance
+                                </a>
+                                <a href="#" id="popularity">Popularity</a>
+                                <a href="#" id="lowToHigh">Price -- Low to High</a>
+                                <a href="#" id="HighToLow">Price -- High to Low</a>
+                                <a href="#" id="newestFirst">Newest First</a>
+                            </div>
+                        </div>
+                        <hr id="main-heading-hr">
+                        <div class="items-cart-container">
+                            <!--  <div class="items-cart">
+                                <div class="cart-img">
+                                    <img src="https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/r/h/z/apple-iphone-12-dummyapplefsn-original-imafwg8duby8qbn4.jpeg?q=70"
+                                        alt="">
+                                    <div class="cart-compare">
+                                        <input type="checkbox" name="addtocompare" id="addtocompare">
+                                        <label for="addtocompare">Add to Compare</label>
+                                    </div>
+                                </div>
+                                <div class="cart-title">
+                                    Apple Mobile
+                                </div>
+                                <div class="cart-price">
+                                    49999
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="items-cart">
+                                <div class="cart-img">
+                                    <img src="https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/r/h/z/apple-iphone-12-dummyapplefsn-original-imafwg8duby8qbn4.jpeg?q=70"
+                                        alt="">
+                                    <div class="cart-compare">
+                                        <input type="checkbox" name="addtocompare" id="addtocompare">
+                                        <label for="addtocompare">Add to Compare</label>
+                                    </div>
+                                </div>
+                                <div class="cart-title">
+                                    Apple Mobile
+                                </div>
+                                <div class="cart-price">
+                                    49999
+                                </div>
+                            </div>
+
+                            <div class="items-cart">
+                                <div class="cart-img">
+                                    <img src="https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/r/h/z/apple-iphone-12-dummyapplefsn-original-imafwg8duby8qbn4.jpeg?q=70"
+                                        alt="">
+                                    <div class="cart-compare">
+                                        <input type="checkbox" name="addtocompare" id="addtocompare">
+                                        <label for="addtocompare">Add to Compare</label>
+                                    </div>
+                                </div>
+                                <div class="cart-title">
+                                    Apple Mobile
+                                </div>
+                                <div class="cart-price">
+                                    49999
+                                </div>
+                            </div>
+
+                            <div class="items-cart">
+                                <div class="cart-img">
+                                    <img src="https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/r/h/z/apple-iphone-12-dummyapplefsn-original-imafwg8duby8qbn4.jpeg?q=70"
+                                        alt="">
+                                    <div class="cart-compare">
+                                        <input type="checkbox" name="addtocompare" id="addtocompare">
+                                        <label for="addtocompare">Add to Compare</label>
+                                    </div>
+                                </div>
+                                <div class="cart-title">
+                                    Apple Mobile
+                                </div>
+                                <div class="cart-price">
+                                    49999
+                                </div>
+                            </div>
+
+                            <div class="items-cart">
+                                <div class="cart-img">
+                                    <img src="https://rukminim2.flixcart.com/image/312/312/kg8avm80/mobile/r/h/z/apple-iphone-12-dummyapplefsn-original-imafwg8duby8qbn4.jpeg?q=70"
+                                        alt="">
+                                    <div class="cart-compare">
+                                        <input type="checkbox" name="addtocompare" id="addtocompare">
+                                        <label for="addtocompare">Add to Compare</label>
+                                    </div>
+                                </div>
+                                <div class="cart-title">
+                                    Apple Mobile
+                                </div>
+                                <div class="cart-price">
+                                    49999
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <footer class="_3voSl0">
+            <div class="footer-container">
+                <div>
+                    <div class="_2WErco row">
+                        <div class="_2Brcj4">
+                            <div class="_3-dnWo">ABOUT</div><a href="#"
+                                class="_1arVWX">Contact Us</a><a href="#"
+                                class="_1arVWX">About Us</a><a
+                                href="#"
+                                class="_1arVWX">Careers</a><a
+                                href="#"
+                                class="_1arVWX">Flipkart Stories</a><a
+                                href="#"
+                                class="_1arVWX">Press</a><a
+                                href="#"
+                                target="_blank" class="_1arVWX" rel="noopener noreferrer">Flipkart Wholesale</a><a
+                                href="#" target="_blank"
+                                title="Cleartrip: #1 Site for Booking Flights Tickets, Buses &amp; Hotels Online"
+                                class="_1arVWX" rel="noopener noreferrer">Cleartrip</a><a href="#"
+                                class="_1arVWX">Corporate Information</a>
+                        </div>
+                        <div class="_2Brcj4">
+                            <div class="_3-dnWo">HELP</div><a href="#" class="_1arVWX">Payments</a><a
+                                href="#" class="_1arVWX">Shipping</a><a
+                                href="#"
+                                class="_1arVWX">Cancellation &amp; Returns</a><a
+                                href="#"
+                                class="_1arVWX">FAQ</a><a
+                                href="#"
+                                class="_1arVWX">Report Infringement</a>
+                        </div>
+                        <div class="_2Brcj4">
+                            <div class="_3-dnWo">CONSUMER POLICY</div><a
+                                href="#"
+                                class="_1arVWX">Cancellation &amp; Returns</a><a
+                                href="#" class="_1arVWX">Terms Of
+                                Use</a><a href="#"
+                                class="_1arVWX">Security</a><a
+                                href="#"
+                                class="_1arVWX">Privacy</a><a href="#"
+                                class="_1arVWX">Sitemap</a><a
+                                href="#"
+                                class="_1arVWX">Grievance Redressal</a><a
+                                href="#"
+                                class="_1arVWX">EPR Compliance</a>
+                        </div>
+                        <div class="_2Brcj4">
+                            <div class="_3-dnWo">SOCIAL</div><a href="#"
+                                class="_1arVWX">Facebook</a><a href="#"
+                                class="_1arVWX">Twitter</a><a href="#"
+                                class="_1arVWX">YouTube</a>
+                        </div>
+                        <div class="_2Brcj4 address">
+                            <div class="_3JHi0r">
+                                <div class="_3-dnWo"><span>Mail Us:</span></div>
+                                <div class="_1U1qnR">
+                                    <div class="_1LJS6T">
+                                        <div class="_2NKhZn _1U1qnR">
+                                            <p>Flipkart Internet Private Limited, </p>
+                                            <p> Buildings Alyssa, Begonia &amp; </p>
+                                            <p> Clove Embassy Tech Village, </p>
+                                            <p> Outer Ring Road, Devarabeesanahalli Village, </p>
+                                            <p> Bengaluru, 560103, </p>
+                                            <p> Karnataka, India</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="_2Brcj4 address">
+                            <div class="_3IT4e6">
+                                <div class="_3-dnWo"><span>Registered Office Address:</span></div>
+                                <div class="_1U1qnR">
+                                    <div class="_1LJS6T">
+                                        <div class="_2NKhZn _1U1qnR">
+                                            <p>Flipkart Internet Private Limited, </p>
+                                            <p> Buildings Alyssa, Begonia &amp; </p>
+                                            <p> Clove Embassy Tech Village, </p>
+                                            <p> Outer Ring Road, Devarabeesanahalli Village, </p>
+                                            <p> Bengaluru, 560103, </p>
+                                            <p> Karnataka, India </p>
+                                            <p> CIN : U51109KA2012PTC066107 </p>
+                                            <p> Telephone: <a href="#">044-45614700</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="_2uz0vJ">
+                            <div><img
+                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K"><a
+                                    href="#"><span
+                                        class="hDTmm5">Become a Seller</span></a></div>
+                            <div><img
+                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0zLTNoMjB2MjBILTN6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTAuNDkyIDNDNi4zNTMgMyAzIDYuMzYgMyAxMC41YzAgNC4xNCAzLjM1MyA3LjUgNy40OTIgNy41QzE0LjY0IDE4IDE4IDE0LjY0IDE4IDEwLjUgMTggNi4zNiAxNC42NCAzIDEwLjQ5MiAzem0zLjE4IDEyTDEwLjUgMTMuMDg4IDcuMzI3IDE1bC44NC0zLjYwN0w1LjM3IDguOTdsMy42OS0uMzE1TDEwLjUgNS4yNWwxLjQ0IDMuMzk4IDMuNjkuMzE1LTIuNzk4IDIuNDIyLjg0IDMuNjE1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="><a
+                                    href="#"><span class="hDTmm5">Advertise</span></a></div>
+                            <div><img
+                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg=="><a
+                                    href="#"><span
+                                        class="hDTmm5">Gift Cards</span></a></div>
+                            <div><img
+                                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2LjVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo="><a
+                                    href="#"><span
+                                        class="hDTmm5">Help Center</span></a></div><span class="z3ht-w">© 2007-2023
+                                <span>Flipkart.com</span></span>
+
+                            <img
+                                src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script/home.js"></script>
+</body>
+
+</html>
